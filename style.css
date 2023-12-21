@@ -139,12 +139,26 @@
   
   /* showcase */
   
-  
+/*   
   #showcase{ 
       background-image: url(img/a1.jpg) no-repeat center center/cover;
       background-attachment: fixed;
   padding: 3rem 0;
-  }
+  } */
+/* 
+  #showcase{
+    background: url(img/a1.jpg) no-repeat center center/cover;
+  } */
+
+  #showcase{
+    min-height: 70vh;
+    background: url(img/a1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    }
+    
   #showcase .showcase-container{
       display: flex;
       justify-content: center;
