@@ -16,3 +16,10 @@ hamburgerMenu.addEventListener('click', () =>{
 
 })
 
+// const searchLink = document.querySelector('.nav-links')
+// const searchIcon = document.querySelector('i')
+
+// searchLink.addEventListener('click', () => {
+//     searchIcon.classList.toggle("fa-x");
+//     searchIcon.classList.toggle("fa-search");
+// })
