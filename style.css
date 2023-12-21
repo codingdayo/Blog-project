@@ -155,7 +155,7 @@ span {
   background: url(img/a1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+
   display: flex;
   align-items: center;
 }
@@ -464,7 +464,7 @@ span {
   background-position: center;
   display: flex;
   align-items: center;
-  background-attachment: fixed;
+ 
 }
 .contact-container {
   display: flex;
