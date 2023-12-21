@@ -572,7 +572,7 @@
   
   /* max-width: 768px */
   
-   @media (max-width: 450px) { 
+   @media (max-width: 670px) { 
   
       .blog-container {
           display: grid;
@@ -598,13 +598,10 @@
   }
   
     
-    .blog-content {
-      padding: 0 1rem;
-      
-    }
+   
     
     .blog-content .box{
-      border: 1px solid red;
+   
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -647,6 +644,10 @@
         object-fit: cover;
         border-radius: 8px;
       }
-      
+      .blog-side .bg-box p{
+        text-align: center;
+        
+        padding: 0 .8rem;
+      }
   } 
   
